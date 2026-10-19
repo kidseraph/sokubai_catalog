@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="title"></h1>
+    <div class="lang" id="lang"></div>
+  </header>
+
+  <main>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <div class="bar">
+    <div class="sum" id="sum"></div>
+    <button class="btn" type="button" id="confirm" disabled></button>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="sheet">
+      <p class="hint" id="hint"></p>
+      <div class="qr" id="qr"></div>
+      <div class="code" id="code"></div>
+      <table id="summary"></table>
+      <div class="actions">
+        <button class="btn ghost" type="button" id="edit"></button>
+        <button class="btn" type="button" id="neworder"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="config.js"></script>
+  <script src="common.js"></script>
+  <script src="shop.js"></script>
+</body>
+</html>

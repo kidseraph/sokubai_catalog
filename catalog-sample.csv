@@ -1,0 +1,5 @@
+item_id,thumbnail,name_jp,name_en,name_cn,price,in_stock
+A1,,抹茶ラテ,Matcha Latte,抹茶拿鐵,500,TRUE
+A2,,ほうじ茶,Hojicha,焙茶,450,TRUE
+B1,,どら焼き,Dorayaki,銅鑼燒,300,FALSE
+B2,,団子 (3本),Dango (3 sticks),糰子 (3串),400,TRUE
