@@ -1,8 +1,7 @@
 // ===== Shop settings: edit this file =====
 window.SHOP_CONFIG = {
-  // Google Sheet > File > Share > Publish to web > CSV link.
-  // Leave as-is to use catalog-sample.csv for testing.
-  CATALOG_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSbs2HKdPfpMoItLGL5O5qTGftyPx4Idmc41at5TBByFR5LpPmtOzFaWnEwe_8jFDYdRjNF-DHQa2XP/pub?output=csv",
+  // Google Sheet gviz endpoint (real-time, no 5-min cache).
+  CATALOG_CSV_URL: "https://docs.google.com/spreadsheets/d/18EWxr5OL7K8PsOgh_PLUo0EcDKaXeU8biYdyZrMeb-8/gviz/tq?tqx=out:csv&sheet=2026YFA",
 
   // Folder for thumbnails. If the Sheet's thumbnail cell is a full URL
   // (https://...), it is used as-is instead.
